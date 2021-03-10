@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="language, detect language, find the language name, detect the language name">
+    <link rel="stylesheet" href="./view/style.css">
+    <title>Language Detector</title>
+</head>
+
+<body>
+    <header>
+        <h1>Detect the language name</h1>
+    </header>
+    <hr>
+    <main>
+        <section class="intro">
+            <p>This web application supports the following languages: <br> <br> English, French, Dutch, Arabic, Dari and
+                Pashto</p>
+            <p>
+                Write or paste some text(at least 15 characters: recommended) in the text input box below <br> then hit
+                the Enter key or click on the button (Detect).
+            </p>
+        </section>
+        <hr>
+        <section class="message-box">
+            <div class="message-to-user"></div>
+        </section>
+        <section class="input">
+            <div><label for="text-input">Some Text</label></div>
+            <textarea id="text-input"
+                placeholder="Paste or write some text to detect in which language the text is"></textarea>
+            <div><button id="detect">Detect</button></div>
+        </section>
+        <section class="result">
+            <h2>The language name is:</h2>
+            <div id="detected-language"></div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <p>&copy; Created by <a href="https://everydaysmarter.herokuapp.com/" title="Visit my Website"
+                    target="_blank">Sayed Kazimi</a> | 2021</p>
+        </div>
+        <div>
+            <p>I created this web application for learning purposes(to practice classes, OOP, Encapsulation, ...)</p>
+        </div>
+    </footer>
+    <script src="./logics/index.js" type="module"></script>
+</body>
+
+</html>
