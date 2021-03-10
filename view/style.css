@@ -1,0 +1,83 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(210deg, rgb(1, 37, 1), rgb(6, 6, 85), black);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: white;
+	font-family: serif, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif,
+		"Brush Script MT";
+}
+header {
+	background: linear-gradient(110deg, rgb(1, 37, 1), rgb(6, 6, 85), black);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 80px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+section.intro {
+	text-align: center;
+}
+section.message-box div {
+	color: red;
+	font-weight: bold;
+	height: 50px;
+	padding: 5px 4px;
+	margin: 2px 9px;
+	width: 94%;
+}
+section.input,
+section.result,
+section.message-box,
+footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+section.input div {
+	margin: 2px 9px;
+	width: 95%;
+	background-color: blue;
+	text-align: center;
+	font-size: 35px;
+}
+section.input textarea {
+	margin: 0 9px;
+	height: 150px;
+	width: 94.5%;
+	font-size: 20px;
+}
+section.input div button {
+	width: 100%;
+	background-color: rgb(180, 180, 207);
+	text-align: center;
+	font-size: 35px;
+	cursor: pointer;
+	outline: none;
+	border: 1px white solid;
+}
+section.result div {
+	background-color: white;
+	color: rgb(5, 5, 61);
+	height: 90px;
+	font-size: 20px;
+	margin: 2px 9px 19px 9px;
+	padding: 5px 3px;
+	width: 94%;
+	border-radius: 9px;
+	border: 2px green dashed;
+}
+
+footer a {
+	text-decoration: none;
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+}
